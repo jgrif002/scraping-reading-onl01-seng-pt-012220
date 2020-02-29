@@ -3,6 +3,6 @@ require 'open-uri'
 
 html = open("https://flatironschool.com/")
 
-nokogiri::HTML(html)
+Nokogiri::HTML(html)
 
-doc = nokogiri::HTML(html)
+doc = Nokogiri::HTML(html)
